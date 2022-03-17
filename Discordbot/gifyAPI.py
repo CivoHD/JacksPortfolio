@@ -15,7 +15,7 @@ bot = commands.Bot(command_prefix="!")
 @bot.command()
 async def gif(ctx,*,q="Smile"):
 
-    api_key = "xkOC28aqoUjFgyxGxuyXl5vcEfbTbLmL"
+    api_key = "(Enter API key here!)"
     api_instance = giphy_client.DefaultApi()
 
     try:
